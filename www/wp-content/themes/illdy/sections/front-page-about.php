@@ -45,6 +45,7 @@ endif; ?>">
 				if ( is_active_sidebar( 'front-page-about-sidebar' ) ) :
 					dynamic_sidebar( 'front-page-about-sidebar' );
 				elseif ( current_user_can( 'edit_theme_options' ) & defined( 'ILLDY_COMPANION' ) ) :
+					/*
 					$the_widget_args = array(
 						'before_widget' => '<div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill">',
 						'after_widget'  => '</div>',
@@ -55,6 +56,7 @@ endif; ?>">
 					the_widget( 'Illdy_Widget_Skill', 'title=' . __( 'Typography', 'illdy' ) . '&percentage=60&icon=fa-font&color=#f18b6d', $the_widget_args );
 					the_widget( 'Illdy_Widget_Skill', 'title=' . __( 'Design', 'illdy' ) . '&percentage=82&icon=fa-pencil&color=#f1d204', $the_widget_args );
 					the_widget( 'Illdy_Widget_Skill', 'title=' . __( 'Development', 'illdy' ) . '&percentage=86&icon=fa-code&color=#6a4d8a', $the_widget_args );
+					*/
 				endif;
 				?>
 			</div><!--/.row-->

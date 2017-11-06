@@ -124,7 +124,7 @@ class Kiwi_Social_Share_Frontend {
 
 					// add facebook app id
 					if ( ! empty( $info['fb_app_id'] ) ) {
-						$info['header_output'] .= PHP_EOL . '<meta property = "fb:app_id" content = "' . trim( $info['fb_app_id'] ) . '" />';
+						$info['header_output'] .= PHP_EOL . '<meta property = "fb:app_id" content="' . trim( $info['fb_app_id'] ) . '" />';
 					}
 
 					// add facebook url

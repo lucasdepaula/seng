@@ -524,7 +524,7 @@ var kiwi = {
 
 				if ( parent.is('li') ) {
 					context = parent.parent().attr('data-tracking-container');
-					kiwiTracking = kiwi.checkTracking(this);
+					kiwiTracking = kiwi.frontend.checkTracking(this);
 				} else if ( parent.is('blockquote') ) {
 					context = 'click-to-tweet';
 					kiwiTracking = 'true' === $(this).attr('data-tracking');

@@ -958,7 +958,7 @@ a.button:hover {
 	margin-top: 40px;
 }
 
-#counter .widget_illdy_counter:nth-child(1), #counter .widget_illdy_counter:nth-child(2), #counter .widget_illdy_counter:nth-child(3) {
+#counter .widget_illdy_counter:nth-child(1), #counter .widget_illdy_counter:nth-child(2), #counter .widget_illdy_counter:nth-child(3), #counter .widget_illdy_counter:nth-child(4) {
 	margin-top: 0;
 }
 

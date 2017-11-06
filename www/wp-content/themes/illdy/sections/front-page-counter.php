@@ -39,7 +39,7 @@ endif;
 				dynamic_sidebar( 'front-page-counter-sidebar' );
 			elseif ( current_user_can( 'edit_theme_options' ) & defined( 'ILLDY_COMPANION' ) ) :
 				$the_widget_args = array(
-					'before_widget' => '<div class="col-sm-4 widget_illdy_counter">',
+					'before_widget' => '<div class="col-sm-3 widget_illdy_counter">',
 					'after_widget'  => '</div>',
 					'before_title'  => '',
 					'after_title'   => '',
